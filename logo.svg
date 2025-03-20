@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="90" fill="#0078D7" />
+  <circle cx="100" cy="100" r="85" fill="#FFFFFF" />
+  
+  <!-- Windows图标 -->
+  <rect x="40" y="40" width="50" height="50" fill="#0078D7" />
+  <rect x="110" y="40" width="50" height="50" fill="#0078D7" />
+  <rect x="40" y="110" width="50" height="50" fill="#0078D7" />
+  <rect x="110" y="110" width="50" height="50" fill="#0078D7" />
+  
+  <!-- 鼠标指针 -->
+  <path d="M140,75 L125,90 L135,90 L120,110 L135,95 L125,95 L140,75" fill="#FF4081" stroke="#FF4081" stroke-width="2" />
+  
+  <!-- 键盘 -->
+  <rect x="70" y="125" width="60" height="25" rx="3" fill="#444444" />
+  <rect x="75" y="130" width="10" height="5" rx="1" fill="#FFFFFF" />
+  <rect x="90" y="130" width="10" height="5" rx="1" fill="#FFFFFF" />
+  <rect x="105" y="130" width="10" height="5" rx="1" fill="#FFFFFF" />
+  <rect x="75" y="140" width="40" height="5" rx="1" fill="#FFFFFF" />
+  
+  <!-- 自动化符号 -->
+  <circle cx="150" cy="50" r="15" fill="#FF4081" />
+  <path d="M144,50 L156,50 M150,44 L150,56" stroke="#FFFFFF" stroke-width="3" />
+  
+  <!-- 文字 -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0078D7">WinAutoTool</text>
+</svg> 

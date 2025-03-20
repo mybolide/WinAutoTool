@@ -1,0 +1,37 @@
+{
+  "name": "windows-automation-tool",
+  "version": "1.0.0",
+  "description": "Windows自动化工具，提供鼠标、键盘和应用程序控制功能",
+  "main": "automate.js",
+  "scripts": {
+    "test:mouse": "node tests/test-mouse.js",
+    "test:keyboard": "node tests/test-keyboard.js",
+    "test:clipboard": "node tests/test-clipboard.js",
+    "test:function-keys": "node tests/test-function-keys.js",
+    "test:chinese-dedicated": "node tests/test-chinese-dedicated.js",
+    "test:launcher": "node tests/test-launcher.js",
+    "test:all": "node tests/test-automation.js"
+  },
+  "keywords": [
+    "windows",
+    "automation",
+    "mouse",
+    "keyboard",
+    "clipboard",
+    "launcher"
+  ],
+  "author": "Windows自动化工具团队",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
