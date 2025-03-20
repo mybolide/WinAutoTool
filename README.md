@@ -181,6 +181,3 @@ npm run test:all
 - [NirCmd](https://www.nirsoft.net/utils/nircmd.html) - 本项目使用NirCmd执行部分键盘操作
 - [Node.js](https://nodejs.org/) - JavaScript运行环境
 
----
-
-由Windows自动化工具团队 ❤️ 倾情奉献 
